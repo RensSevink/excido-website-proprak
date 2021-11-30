@@ -28,33 +28,33 @@
     background-color: #000000;
     position: relative;
   }
-  
+
   .nav > .nav-header {
     display: inline;
     position: absolute;
   }
-  
+
   .logo img {
     float:left;
   }
-    
+
   .nav > .nav-btn {
     display: none;
   }
-  
+
   .nav > .nav-links {
     display: inline;
     font-size: 38px;
     padding-left: 110px;
   }
-  
+
   .nav > .nav-links > a {
     display: inline-block;
     padding: 13px 20px 13px 20px;
     text-decoration: none;
     color: #efefef;
   }
-  
+
   .nav > .nav-links > a:hover {
     background-color: rgba(255, 0, 0, 0.541);
   }
@@ -62,7 +62,7 @@
   .nav > #nav-check {
     display: none;
   }
-  
+
   @media (max-width:1060px) {
     .nav > .nav-btn {
       display: inline-block;
@@ -107,6 +107,15 @@
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+  }
+
+  .home {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
   }
 
   .flip-card {
