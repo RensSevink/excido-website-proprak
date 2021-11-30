@@ -9,7 +9,7 @@
   }
   
   .nav {
-    height: 9vh;
+    height: 77px;
     width: 100%;
     background-color: #000000;
     position: relative;
@@ -36,7 +36,7 @@
   
   .nav > .nav-links > a {
     display: inline-block;
-    padding: 13px 10px 13px 10px;
+    padding: 13px 20px 13px 20px;
     text-decoration: none;
     color: #efefef;
   }
