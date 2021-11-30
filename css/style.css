@@ -23,7 +23,7 @@
 
 
   .nav {
-    height: 80px;
+    height: 77px;
     width: 100%;
     background-color: #000000;
     position: relative;
@@ -31,27 +31,26 @@
   
   .nav > .nav-header {
     display: inline;
+    position: absolute;
   }
   
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 35px;
-    color: #fff;
-    padding: 10px 10px 10px 10px;
+  .logo img {
+    float:left;
   }
-  
+    
   .nav > .nav-btn {
     display: none;
   }
   
   .nav > .nav-links {
     display: inline;
-    font-size: 24px;
+    font-size: 38px;
+    padding-left: 110px;
   }
   
   .nav > .nav-links > a {
     display: inline-block;
-    padding: 13px 10px 13px 10px;
+    padding: 13px 20px 13px 20px;
     text-decoration: none;
     color: #efefef;
   }
@@ -64,7 +63,7 @@
     display: none;
   }
   
-  @media (max-width:600px) {
+  @media (max-width:1060px) {
     .nav > .nav-btn {
       display: inline-block;
       position: absolute;
@@ -73,18 +72,18 @@
     }
     .nav > .nav-btn > label {
       display: inline-block;
-      width: 50px;
+      width: 100px;
       height: 50px;
-      padding: 13px;
+      padding: 30px;
     }
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: rgba(0, 0, 0, 0.3);
     }
     .nav > .nav-btn > label > span {
       display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
+      width: 50px;
+      height: 15px;
+      border-top: 5px solid #eee;
     }
     .nav > .nav-links {
       position: absolute;
