@@ -90,7 +90,7 @@ h2 {
 }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+  transform: rotateY(540deg);
 }
 
 .flip-card-front, .flip-card-back {
@@ -107,7 +107,7 @@ h2 {
 }
 
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgb(253, 122, 0);
   color: white;
   transform: rotateY(180deg);
 }
