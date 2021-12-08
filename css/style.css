@@ -5,12 +5,12 @@
 body {
   margin: 0px;
   font-family: 'segoe ui';
-  background-color: rgb(133, 0, 0);
+  background-color: rgb(61, 61, 61);
 }
 
 h2 {
-  color: white;
-  background-color: black;
+  color: rgb(255, 153, 0);
+  background-color: rgb(66, 66, 66);
   width: fit-content;
 }
 
@@ -52,11 +52,11 @@ h2 {
   display: inline-block;
   padding: 13px 20px 13px 20px;
   text-decoration: none;
-  color: #efefef;
+  color: #ff8800;
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(255, 0, 0, 0.541);
+  background-color: rgba(65, 65, 65, 0.541);
 }
 
 .nav > #nav-check {
