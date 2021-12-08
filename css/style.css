@@ -63,51 +63,6 @@ h2 {
   display: none;
 }
 
-@media (max-width:1060px) {
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    padding: 30px;
-  }
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 50px;
-    height: 15px;
-    border-top: 5px solid #eee;
-  }
-  .nav > .nav-links {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: #333;
-    height: 0px;
-    transition: all 0.3s ease-in;
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-  }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    height: 0px;
-  }
-  .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
-  }
-}
 
 .home {
   max-width: 100%;
@@ -164,4 +119,80 @@ h2 {
   margin: 2rem auto;
   gap: 3rem;
   max-width: 70rem;
+}
+
+#contact {
+  font-size: larger;
+  background-color: #ffee00d5;
+  width: 50%;
+  position: relative;
+  padding: 5px;
+  top: 150px;
+}
+
+#map {
+  position: relative;
+  width: 40%;
+  height: 50vh;
+  margin-left: 55%;
+  bottom: 230px;
+}
+
+@media (max-width:1060px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    padding: 30px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 50px;
+    height: 15px;
+    border-top: 5px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
+  #map {
+    top: 230px;
+    right: 50%;
+    width: 80%;
+    
+  }
+
+  #contact {
+    width: 80%;
+    left: 5%;
+  }
+
 }
