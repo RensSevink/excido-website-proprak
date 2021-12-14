@@ -5,7 +5,7 @@
 body {
   margin: 0px;
   font-family: 'segoe ui';
-  background-color: rgb(133, 0, 0);
+  background-color: rgb(129, 129, 129);
 }
 
 h2 {
@@ -20,10 +20,13 @@ h2 {
   text-align: center;
 }
 
+#logo {
+  width: 55%;
+}
 
 
 .nav {
-  height: 77px;
+  height: 10%;
   width: 100%;
   background-color: #000000;
   position: relative;
@@ -45,7 +48,7 @@ h2 {
 .nav > .nav-links {
   display: inline;
   font-size: 38px;
-  padding-left: 110px;
+  padding-left: 80px;
 }
 
 .nav > .nav-links > a {
@@ -56,7 +59,7 @@ h2 {
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(255, 0, 0, 0.541);
+  background-color: rgba(255, 0, 0, 0.699);
 }
 
 .nav > #nav-check {
@@ -107,7 +110,7 @@ h2 {
 }
 
 .flip-card-back {
-  background-color: rgb(253, 122, 0);
+  background-color: #f01111e8;
   color: white;
   transform: rotateY(180deg);
 }
@@ -123,22 +126,85 @@ h2 {
 
 #contact {
   font-size: larger;
-  background-color: #ffee00d5;
+  background-color: #f01111c7;
   width: 50%;
   position: relative;
   padding: 5px;
   top: 150px;
+  margin-left: 2%;
 }
 
 #map {
   position: relative;
   width: 40%;
   height: 50vh;
-  margin-left: 55%;
+  margin-left: 57%;
   bottom: 230px;
 }
 
+#banner {
+  border: 10px solid #f01111e8;
+  background-color: #ff7b00;
+  color: rgb(0, 0, 0);
+  padding: 26px;
+  min-height: 20vh;
+  border-radius: 0rem 0rem 2rem 2rem;
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+hr {
+  color: black;
+}
+
+.container-fluid {
+  margin-bottom: 6rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  min-width: 15rem;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #ff7b00;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff7b00d2;
+}
+
+#formulier {
+  border-radius: 5px;
+  background-color: #bbbbbb;
+  padding: 20px;
+}
+
 @media (max-width:1060px) {
+  .nav {
+    z-index: 100;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
