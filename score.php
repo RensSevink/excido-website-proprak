@@ -45,39 +45,53 @@
 
     
               <!-- Hieronder staat HTML5 formulier -->
-
-<div id="formulier">
-  <form action="./create.php" method="post">
-                  
-  <label class="form-label" for="inputTeamnaam">Team naam: </label>
-  <input type="text" name="teamnaam" id="inputTeamnaam" required>
-
-  <label class="form-label" for="inputDatum">Datum van escape room: </label>
-  <input type="text" name="datum" id="inputDatum">
-
-  <label for="room">Escape room:</label>
-  <select name="escaperoom" id="inputEscaperoom" required>
-  <option value="man">Man</option>
-  <option value="vrouw">Vrouw</option>
-  <option value="other">Other</option>
-  </select>
-
-  <label class="form-label" for="inputTijd">Tijd: </label>
-  <input type="text" name="tijd" id="inputTijd" required>
-
-  <label class="form-label" for="inputBestelnummer">Bestelnummer: </label>
-  <input type="text" name="bestelnummer" id="inputBestelnummer" required>
-
-                 
-  <input type="submit" value="Verzenden">
-                  
+  <div class="container" id="formuliercontainer">
+  <form action="/create.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="inputTeamnaam">Team Naam</label>
+      </div>
+      <div class="col-75">
+        <input type="text" name="teamnaam" id="inputTeamnaam" placeholder="Jouw teamnaam.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="inputDatum">Datum</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="inputDatum" name="datum" placeholder="Datum van de escape room.." required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="inputEscaperoom">Escape room</label>
+      </div>
+      <div class="col-75">
+        <select id="inputEscaperoom" name="escaperoom">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="inputTijd">Tijd</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="inputTijd" name="tijd" placeholder="Tijd van de escape room.." required>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+    <a class="button" id="leaderboard" href="./read.php">Leaderboard</a>
   </form>
-  <button id="scoreboord"><a href="./read.php">Leaderboard</a></button>
 </div>
-          
+
 
 
 
 </body>
-
 </html>
