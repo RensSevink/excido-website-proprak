@@ -19,9 +19,9 @@ h3 {
   background-color: #f01111c7;
   width: 50%;
   position: relative;
-  padding: 0.5rem;
-  top: 1.5rem;
-  margin-left: 25rem;
+  padding: 0.5%;
+  margin-left: 25%;
+  margin-top: 3%;
   text-align: center;
 }
 
@@ -30,9 +30,8 @@ p2 {
   background-color: #f01111c7;
   width: 50%;
   position: relative;
-  padding: 0.5rem;
-  top: 5rem;
-  margin-left: 4rem;
+  padding: 0.5%;
+  margin-left: 5%;
   flex-wrap: wrap;
 }
 
