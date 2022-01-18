@@ -27,7 +27,7 @@
       <a href="./activiteiten.html">Activiteiten</a>
       <a href="./contact.html">Contact</a>
       <a href="./score.php">Score</a>
-      <a href="./overons.html">Over Ons</a>
+      <a href="./overons.html">Over ons</a>
     </div>
   </div>
 
@@ -46,7 +46,7 @@
     
               <!-- Hieronder staat HTML5 formulier -->
   <div class="container" id="formuliercontainer">
-  <form action="/create.php">
+  <form action="./create.php">
     <div class="row">
       <div class="col-25">
         <label for="inputTeamnaam">Team Naam</label>
@@ -60,7 +60,7 @@
         <label for="inputDatum">Datum</label>
       </div>
       <div class="col-75">
-        <input type="text" id="inputDatum" name="datum" placeholder="Datum van de escape room.." required>
+        <input type="date" id="inputDatum" name="datum" placeholder="Datum van de escape room.." required>
       </div>
     </div>
     <div class="row">
@@ -69,21 +69,21 @@
       </div>
       <div class="col-75">
         <select id="inputEscaperoom" name="escaperoom">
-          <option value="australia">Het laboratorium</option>
-          <option value="canada">De Bank</option>
-          <option value="usa">De bomkelder</option>
-          <option value="usa">De goud mijn</option>
-          <option value="usa">De vloek</option>
-          <option value="usa">Tover avontuur</option>
+          <option value="laboratorium">Het laboratorium</option>
+          <option value="bank">De Bank</option>
+          <option value="bomkelder">De bomkelder</option>
+          <option value="goudmijn">De goud mijn</option>
+          <option value="vloek">De vloek</option>
+          <option value="toveravontuur">Tover avontuur</option>
         </select>
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="inputTijd">Tijd</label>
+        <label for="inputTijd">Behaalde Tijd</label>
       </div>
       <div class="col-75">
-        <input type="text" id="inputTijd" name="tijd" placeholder="Tijd van de escape room.." required>
+        <input type="time" id="inputTijd" name="tijd" placeholder="Jullie behaalde tijd.." required>
       </div>
     </div>
     <div class="row">
