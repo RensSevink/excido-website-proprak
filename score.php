@@ -23,7 +23,7 @@
     </div>
 
     <div class="nav-links">
-      <a href="./home.html" class="active">Home</a>
+      <a href="./index.html" class="active">Home</a>
       <a href="./activiteiten.html">Activiteiten</a>
       <a href="./contact.html">Contact</a>
       <a href="#">Score</a>
@@ -71,6 +71,9 @@
         <select id="inputEscaperoom" name="escaperoom">
           <option value="australia">Australia</option>
           <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="usa">USA</option>
+          <option value="usa">USA</option>
           <option value="usa">USA</option>
         </select>
       </div>
