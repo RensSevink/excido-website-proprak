@@ -26,8 +26,8 @@
       <a href="./index.html" class="active">Home</a>
       <a href="./activiteiten.html">Activiteiten</a>
       <a href="./contact.html">Contact</a>
-      <a href="#">Score</a>
-      <a href="#">Over Ons</a>
+      <a href="./score.php">Score</a>
+      <a href="./overons.html">Over Ons</a>
     </div>
   </div>
 
@@ -69,12 +69,12 @@
       </div>
       <div class="col-75">
         <select id="inputEscaperoom" name="escaperoom">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="usa">USA</option>
-          <option value="usa">USA</option>
-          <option value="usa">USA</option>
+          <option value="australia">Het laboratorium</option>
+          <option value="canada">De Bank</option>
+          <option value="usa">De bomkelder</option>
+          <option value="usa">De goud mijn</option>
+          <option value="usa">De vloek</option>
+          <option value="usa">Tover avontuur</option>
         </select>
       </div>
     </div>
