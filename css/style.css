@@ -12,7 +12,7 @@ h2 {
   background-color: #f01111c7;
 } 
 
- h3 {
+ .overons {
   font-size: larger;
   background-color: #f01111c7;
   width: 50%;
@@ -21,6 +21,7 @@ h2 {
   margin-left: 25%;
   margin-top: 2%;
   text-align: center;
+  flex-wrap:	wrap;
 }
 
 p2 {
@@ -326,3 +327,17 @@ input[type=submit]:hover {
   }
 
 }
+
+.overonsimg {
+height: 20rem;
+width: 30rem;
+margin-top: 4%;
+margin-left: 10%;
+}
+
+.overonsimg2 {
+  height: 20rem;
+  width: 30rem;
+  margin-top: 5%;
+  margin-left: 17%;
+  }
