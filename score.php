@@ -46,7 +46,7 @@
     
               <!-- Hieronder staat HTML5 formulier -->
   <div class="container" id="formuliercontainer">
-  <form action="./create.php">
+  <form action="./create.php" method="post">
     <div class="row">
       <div class="col-25">
         <label for="inputTeamnaam">Team Naam</label>
@@ -80,16 +80,16 @@
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="inputTijd">Behaalde Tijd</label>
+        <label for="inputTijd">Behaalde tijd (bijvoorbeeld 00:30:20)</label>
       </div>
       <div class="col-75">
-        <input type="time" id="inputTijd" name="tijd" placeholder="Jullie behaalde tijd.." required>
+        <input type="text" id="inputTijd" name="tijd" placeholder="Jullie behaalde tijd.." required>
       </div>
     </div>
     <div class="row">
       <input type="submit" value="Submit">
     </div>
-    <a class="button" id="leaderboard" href="./read.php">Leaderboard</a>
+    <a class="button" id="leaderboardbutton" href="./read.php">Leaderboard</a>
   </form>
 </div>
 
