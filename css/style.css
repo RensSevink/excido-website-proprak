@@ -9,12 +9,10 @@ body {
 }
 
 h2 {
-  color: rgb(255, 153, 0);
-  background-color: rgb(66, 66, 66);
-  width: fit-content;
-}
+  background-color: #f01111c7;
+} 
 
-h3 {
+ h3 {
   font-size: larger;
   background-color: #f01111c7;
   width: 50%;
@@ -133,7 +131,7 @@ p2 {
 
 .flip-card-back {
   background-color: #f01111e8;
-  color: white;
+  color: rgb(0, 0, 0);
   transform: rotateY(180deg);
 }
 
