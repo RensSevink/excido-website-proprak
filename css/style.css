@@ -46,7 +46,7 @@ p2 {
   width: 55%;
 }
 
-
+/* navbar css */
 .nav {
   height: 10%;
   width: 100%;
@@ -88,7 +88,7 @@ p2 {
   display: none;
 }
 
-
+/* home css */
 .home {
   max-width: 100%;
   height: auto;
@@ -98,6 +98,7 @@ p2 {
   margin-top: 100px;
 }
 
+/* activiteiten pagina css */
 .cardimage {
   width:300px;
   height:200px;
@@ -146,6 +147,7 @@ p2 {
   transform: rotateY(180deg);
 }
 
+/* contact pagina css */
 .container {
   display:flex;
   justify-content: center;
@@ -173,6 +175,7 @@ p2 {
   bottom: 230px;
 }
 
+/* score formulier css */
 #banner {
   border: 10px solid #f01111e8;
   background-color: #ff7b00;
@@ -228,8 +231,6 @@ input[type=submit], .button {
   
 }
 
-
-
 input[type=submit]:hover {
   background-color: #ff7b00cb;
 }
@@ -254,7 +255,6 @@ input[type=submit]:hover {
   margin-top: 6px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -331,6 +331,7 @@ input[type=submit]:hover {
 
 }
 
+/* over ons pagina css */
 .overonsimg {
 height: 20rem;
 width: 30rem;
@@ -343,29 +344,30 @@ margin-left: 10%;
   width: 30rem;
   margin-top: 5%;
   margin-left: 17%;
-  }
+}
 
-  #leaderboard {
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 80%;
-    margin-top: 20px;
-  }
+/* leaderboard css */
+#leaderboard {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
   
-  #leaderboard td, #leaderboard th {
-    border: 1px solid rgb(0, 0, 0);
-    padding: 8px;
-  }
+#leaderboard td, #leaderboard th {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+}
   
-  #leaderboard tr {background-color: rgb(252, 115, 47);}
+#leaderboard tr {background-color: rgb(252, 115, 47);}
   
-  #leaderboard tr:hover {background-color: #eca656;}
+#leaderboard tr:hover {background-color: #eca656;}
   
-  #leaderboard th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #f01111e8;
-    color: white;
-  }
+#leaderboard th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f01111e8;
+  color: white;
+}

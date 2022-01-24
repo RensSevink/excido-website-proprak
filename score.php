@@ -43,8 +43,7 @@
         </div>
     </div>
 
-    
-              <!-- Hieronder staat HTML5 formulier -->
+    <!-- Hieronder staat HTML5 formulier -->
   <div class="container" id="formuliercontainer">
   <form action="./create.php" method="post">
     <div class="row">
@@ -92,9 +91,6 @@
     <a class="button" id="leaderboardbutton" href="./read.php">Leaderboard</a>
   </form>
 </div>
-
-
-
 
 </body>
 </html>
